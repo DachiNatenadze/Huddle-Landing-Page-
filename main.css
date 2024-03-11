@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -33,10 +36,8 @@ header {
 #TryItFree {
   cursor: pointer;
   padding: 2px 12px;
-  cursor: pointer;
   max-width: 120px;
   height: auto;
-  flex-shrink: 0;
   border-radius: 12px;
   border: 0.588px solid #ff52c1;
   background: #fff;
@@ -134,4 +135,36 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 22.857px; /* 150% */
+}
+
+.Growth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Growth img {
+  width: 258.611px;
+  height: 211.556px;
+}
+.Growth h2 {
+  padding: 74px 0px 16px 0px;
+  color: #00252e;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+}
+
+.Growth p {
+  width: 320px;
+  color: #00252e;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
 }
