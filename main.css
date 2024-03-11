@@ -24,16 +24,13 @@ header {
   width: 100%;
   height: auto;
 }
-.Header-content h1 {
-}
-
 .Header-content img {
   max-width: 120px;
   height: auto;
   flex-shrink: 0;
 }
 
-.TryItFree {
+#TryItFree {
   cursor: pointer;
   padding: 2px 12px;
   cursor: pointer;
@@ -44,17 +41,14 @@ header {
   border: 0.588px solid #ff52c1;
   background: #fff;
   box-shadow: 0px 0px 5px 0px rgba(255, 82, 193, 0.22);
-}
-
-.TryItFree h2 {
-  margin: 0;
-  padding: 4px 5px 5px 4px;
-  text-align: center;
   color: #ff52c1;
   font-family: "Open Sans";
-  font-size: 10px;
+  font-size: 9.412px;
+  font-style: normal;
   font-weight: 400;
+  line-height: normal;
 }
+
 .content-info {
   margin-left: 7px;
   margin-right: 7px;
@@ -88,7 +82,7 @@ header {
   line-height: 21px; /* 150% */
   padding: 0px 0px 48px 0px;
 }
-.GetStarted {
+#GetStarted {
   cursor: pointer;
   fill: #ff52c1;
   filter: drop-shadow(0px 3px 7px rgba(0, 37, 46, 0.22));
@@ -99,22 +93,7 @@ header {
   border: 0.588px solid #ff52c1;
   background-color: #ff8ed7;
 }
-.GetStarted h2 {
-  cursor: pointer;
-  text-align: center;
-  color: #fff;
-  font-family: "Open Sans";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 37px; /* 150% */
-}
-.Dashboard {
-  padding: px 0px 0px 0px;
-  width: 100%;
-  height: 100%;
-  flex-shrink: 0;
-}
+
 .Dashboard img {
   justify-content: center;
   width: 260px;
@@ -122,4 +101,36 @@ header {
   flex-shrink: 0;
   display: block;
   margin: auto;
+}
+.Info {
+  padding: 146px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Info img {
+  width: 35.556px;
+  height: 35.656px;
+  margin-right: 124px;
+}
+
+.Info h2 {
+  width: 160px;
+  color: #00252e;
+  font-family: "Open Sans";
+  font-size: 60.952px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90px; /* 150% */
+}
+.Info span {
+  color: #808e9a;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 15.238px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.857px; /* 150% */
 }
