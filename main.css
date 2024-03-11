@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header-content {
+  max-width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 28px 0px 28px;
+}
+
+header {
+  block-size: auto;
+  width: 100%;
+  height: auto;
+}
+
+.Header-content img {
+  max-width: 120px; /* Set a specific max-width for the logo */
+  height: auto;
+  flex-shrink: 0;
+}
+
+.TryItFree {
+  cursor: pointer;
+  max-width: 120px; /* Set the same max-width for TryItFree div */
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 0.588px solid #ff52c1;
+  background: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(255, 82, 193, 0.22);
+}
+
+.TryItFree h2 {
+  margin: 0;
+  padding: 4px 5px 5px 4px;
+  text-align: center;
+  color: #ff52c1;
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-weight: 400;
+}
