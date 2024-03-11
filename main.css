@@ -168,3 +168,36 @@ header {
   font-weight: 400;
   line-height: 21px; /* 150% */
 }
+
+.Flow {
+  padding: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Flow img {
+  width: 265.5px;
+  height: 189px;
+}
+.Flow h2 {
+  padding: 80px 0px 30px 0px;
+  color: #00252e;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+}
+
+.Flow p {
+  width: 320px;
+  color: #00252e;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
