@@ -265,3 +265,52 @@ header {
   border: 0.588px solid #ff52c1;
   background-color: #ff52c1;
 }
+.contact1 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact1 h2 {
+  padding: 0px 230px 620px 38px;
+  position: absolute;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+}
+.contact1 p {
+  padding-bottom: 470px;
+  position: absolute;
+  width: 320px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 171.429% */
+}
+
+.contact1 input {
+  outline: none;
+  bottom: 520px;
+  position: absolute;
+  width: 320px;
+  height: 48px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.contact1 button {
+  margin-left: 155px;
+  bottom: 455px;
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  border-radius: 5px;
+  background: #ff52c1;
+}
